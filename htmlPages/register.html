@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Register</title>
+        <link rel="stylesheet" href="/styles/bootstrap.css">
+        <link href="/styles/login-register.css" rel="stylesheet"> 
+        <script src="/javaScript/jquery-3.1.1.js"></script>
+        <script src="/javaScript/registerValidation.js"></script>
+        <script src="https://smtpjs.com/v3/smtp.js"></script>
+    </head>
+    <body>
+        <section id="mainSection" class="col-12">
+            <div id="imgSection" class="d-none d-xl-block col-md-5"> 
+                <img src="/imgs/empImg.png">
+            </div>
+
+            <div id="formSection" class="col-12 col-md-7 mx-2">
+                <p>Sign up!</p>
+                <form method="get" action="#">
+                    <input type="text" placeholder="First Name" id="firstName">
+                    <small></small>
+                    <input type="text" placeholder="Last Name" id="lastName">
+                    <small></small>
+                    <input type="text" placeholder="Address" id="address">
+                    <small></small>
+                    <input type="email" placeholder="Email" id="email">
+                    <small></small>
+                    <input type="number" placeholder="Age" min="25" max="60" id="age">
+                    <small></small>
+                    <div id="radioContainer">
+                        <input type="radio" name="yourType" value="Security" class="radio" id="role1">
+                        <span>Secuity</span>
+                        <input type="radio" name="yourType" value="employee"  class="radio" id="role2">
+                        <span>Employee</span>
+                    </div>
+             
+                    <input type="button" value="Register" class="btn btn-dark"  id="register">
+                </form>
+            </div>
+        </section>
+    </body>
+</html>

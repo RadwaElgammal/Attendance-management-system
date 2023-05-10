@@ -1,0 +1,32 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#dateSection{
+    display: flex;
+    justify-content:space-around;
+    text-align: center;
+    width: 100%;
+}
+#imgContainer{
+    display: flex;
+
+}
+
+input[type=button]:hover{
+    background-color:darksalmon;
+}
+#divButton{
+    display: flex;
+    
+}
+p{
+    font-size: 20px;
+    color: gray;
+}
+#tableSection{
+    margin-top: 4% !important;
+
+}

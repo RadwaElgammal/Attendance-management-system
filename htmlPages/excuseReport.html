@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Excuse Report</title>
+        <script src="/javaScript/jquery-3.1.1.js"></script>
+        <link href="/styles/admin.css" rel="stylesheet">
+        <script src="/javaScript/excuseReport.js"></script>
+        <link href="/styles/bootstrap.css" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/5b4014be17.js" crossorigin="anonymous"></script>
+
+    </head>
+    <body>
+        <h3 id="h3" class="nav justify-content-center my-5">Excuse Reports about Employees </h3>
+        <section class="nav justify-content-center my-5">
+            <input type="text" placeholder="Search here" class="mx-5 px-4 py-1" style="border: 2px solid rgb(120, 38, 38);">
+        </section>
+        <section id="buttonSection" class="grid gap-3 nav justify-content-center m-3">
+            
+            <input type="button" value="Requests"  id="requests" class=" p-2 btn btn-secondary g-col-6">
+            <input type="button" value="All Employees" id="empInfo" class=" p-2 g-col-6  btn btn-secondary ">
+            <input type="button" value="Full Reports"  id="fullReports" class="  p-2 g-col-6  btn btn-secondary ">
+            <input type="button" value="Late Reports"  id="lateReport" class="  p-2 g-col-6    btn btn-secondary ">
+            <input type="button" value="Excuse Reports "  id="excuseReport" class="p-2 g-col-6   btn-secondary ">
+
+        </section>
+        <div id="data"></div>
+        <section id="tableSection" class="col-12 col-md-9 ">
+            <table class="table" id="myTable">
+                <thead >
+                    <tr>
+                        <th scope="col">User Name</th>
+                        <th scope="col">Type</th>
+                        <th scope="col"> Age</th>
+                        <th scope="col">Password</th>
+                        <th scope="col">Date</th>
+                        <th scope="col">Excuse Times</th>
+                    </tr>
+                </thead>
+                <tbody class="table-group-divider">
+
+                </tbody>
+              
+
+            </table>
+            
+        </section>
+    </body>
+</html>

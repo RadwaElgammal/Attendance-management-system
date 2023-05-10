@@ -1,0 +1,83 @@
+{
+  "persons": [
+    {
+      "id": 1,
+      "firstName": "radwa",
+      "lastName": "elgammal",
+      "email": "elgammar74@gmail.com",
+      "type": "admin",
+      "age": "28",
+      "userName": "radwa",
+      "passWord": 123,
+      "status": ""
+    },
+    {
+      "id": 2,
+      "firstName": "salwa",
+      "lastName": "elgammal",
+      "email": "elgammar74@gmail.com",
+      "type": "employee",
+      "age": "29",
+      "userName": "salwaelgammal2197$",
+      "passWord": 12345,
+      "status": ""
+    },
+    {
+      "id": 3,
+      "firstName": "salah",
+      "lastName": "elgammal",
+      "email": "elgammar74@gmail.com",
+      "type": "security",
+      "age": "29",
+      "userName": "salah4321",
+      "passWord": 1234,
+      "status": ""
+    },
+    {
+      "id": 4,
+      "firstName": "sara",
+      "lastName": "safwat",
+      "email": "elgammar04@gmail.com",
+      "type": "employee",
+      "age": "30",
+      "userName": "sarasafwat9446@",
+      "passWord": 1234
+    }
+  ],
+  "attendence": [
+    {
+      "id": 1,
+      "empID": "",
+      "userName": "",
+      "date": "",
+      "attendanceTime": "",
+      "leaveTime": "",
+      "attendenceTimes": "",
+      "excuseTimes": "",
+      "lateTimes": ""
+    },
+    {
+      "id": 2,
+      "empID": 3,
+      "userName": "salah4321",
+      "date": "2/23/2023",
+      "attendanceTime": 1,
+      "leaveTime": 3,
+      "attendenceTimes": 1,
+      "excuseTimes": 5,
+      "lateTimes": 0
+    },
+    {
+      "id": 3,
+      "empID": 2,
+      "userName": "salwaelgammal2197$",
+      "date": "2/24/2023",
+      "attendanceTime": 14,
+      "leaveTime": "",
+      "attendenceTimes": 1,
+      "excuseTimes": "",
+      "lateTimes": 1
+    }
+  ],
+  "pending": []
+}

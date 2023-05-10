@@ -1,0 +1,34 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+#tableSection{
+    height: 70vh;
+    min-width: 70vw;
+    margin: 1rem auto;
+
+}
+input[type=button]{
+    border: none;
+    color: white;
+    border-radius: 16px;
+
+    
+}
+tr,th,td{
+    padding: 1.25rem;
+}
+input[type=button]:hover{
+    background-color:darksalmon;
+}
+
+#data{
+    text-align: center;
+    font-size:larger;
+    color: red;
+}
+
+

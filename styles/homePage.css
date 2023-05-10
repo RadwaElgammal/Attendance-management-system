@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#headSection{
+    height: 14vh;
+    background-color:rgb(45, 31, 31);
+}
+ul{
+    display: flex;
+    list-style: none;
+    justify-content:flex-end;
+}
+
+ul>li>a{
+    text-decoration:none;
+    color:whitesmoke;
+   
+    font-family: "cairo";
+    font-size: 20px;
+    
+}
+
+#contentSection{
+    width: 100%;
+    height: 70vh;
+    background-image: url(/imgs/imgs66.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+#footerSection{
+    height: 25vh;
+    background-color:rgb(45, 31, 31);
+    color:whitesmoke;
+    display: flex;
+    font-family: "cairo";
+}

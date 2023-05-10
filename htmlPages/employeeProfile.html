@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Profile Page</title>
+        <script src="/javaScript/jquery-3.1.1.js"></script>
+        <link href="/styles/employeeProfile.css" rel="stylesheet">
+        <link href="/styles/bootstrap.css" rel="stylesheet">
+        <script src="/javaScript/employeeProfile.js"></script>
+    </head>
+    <body>
+        <section id="dataSection" class="nav justify-content-center my-5 col-12 col-md-10 ">
+                <h4 class="mx-5 my-2">Welcome<span></span></h4>
+        </section>
+        <section id="dateSection" class="col-12 m-0 col-md-9 ">
+            <div class="border border-4 p-3">
+                <p> For Daily Reports Please select a date</p>
+                    <input type="date">
+            </div>
+            <br>
+            <div  class="border border-4 p-3">
+                <p > For Monthly Reports Please select a range</p>
+                <span>From</span>
+                <input type="date" id="selectdDay">
+                <span>To</span>
+                <input type="date">
+            </div>
+        </section>
+        <section id="tableSection" class="col-12 m-0 col-md-9 " >
+            <table  class="table table-striped" id="myTable">
+                <thead >
+                    <tr>
+                        <th>Date</th>
+                        <th>Attendence </th>
+                        <th>leaveTime</th>
+                        <th>lateTimes</th>
+                        <th>excuseTimes</th>
+                    </tr>
+                </thead>
+                <tbody class="table-group-divider">
+                </tbody>
+            </table>
+        </section>
+    </body>
+</html>

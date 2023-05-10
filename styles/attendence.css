@@ -1,0 +1,26 @@
+
+#inputs{
+    display: flex;
+    justify-content:center;
+   
+}
+
+
+input{
+    width: 250px;
+    height: 40px;
+    margin-top: 40px ;
+    margin: 50px 1rem 20px 1rem;
+}
+input[type=button]:hover{ 
+    background-color:darksalmon;
+}
+#tableSection{
+    width: 70%;
+    margin: 1rem auto;
+}
+#data{
+    text-align: center;
+    font-size:larger;
+    color: red;
+}
